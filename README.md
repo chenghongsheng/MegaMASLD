@@ -16,13 +16,13 @@ R shiny tool: https://bioanalytics-hs.shinyapps.io/MegaMASLD/
 Hepatic RNAseq datasets used in this study are GSE105127, GSE107650, GSE115193, GSE126848, GSE130970, GSE147304, GSE160016, GSE162694, GSE167523, GSE173735, GSE174478, GSE185051, GSE192959, GSE193066, GSE193080, GSE207310, and GSE213621.
 
 ## R scripts
-Data.integration_Deseq2_Boruta.R contains the R script for batch and gender correction to integrate the RNAseq data, differential expression analysis between MASLD stages and key feature selection using Boruta algorithm.
+**Data.integration_Deseq2_Boruta.R** contains the R script for batch and gender correction to integrate the RNAseq data, differential expression analysis between MASLD stages and key feature selection using Boruta algorithm.
 
-ssGSEA_ROC.staging.R contains the R script for quantitative analysis of disease severity based on human-mouse harmonized MASLD Human-mouse harmonized MASLD signature and ROC analysis to determine the accuracy of the transcriptomic-based staging.
+**ssGSEA_ROC.staging.R** contains the R script for quantitative analysis of disease severity based on human-mouse harmonized MASLD Human-mouse harmonized MASLD signature and ROC analysis to determine the accuracy of the transcriptomic-based staging.
 
-Gender_MASLD.interaction.R describes the differential expression analysis to study the interaction between gender and MASLD progression.
+**Gender_MASLD.interaction.R** describes the differential expression analysis to study the interaction between gender and MASLD progression.
 
-cNMF.R contains the R script for an unsupervised clustering of the MASLD transcriptomes using consensus non-negative matrix factorization (cNMF). The analysis enables a histologic-independeint risk stratication of the patients based on the liver transcriptomes.
+**cNMF.R** contains the R script for an unsupervised clustering of the MASLD transcriptomes using consensus non-negative matrix factorization (cNMF). The analysis enables a histologic-independeint risk stratication of the patients based on the liver transcriptomes.
 
-Pseudotime.R contains the R script to predict the pseudotemporal projection of the disease progression based on the integrated liver transcriptomes. It also computes a take-off value, defined as a pseudotime point when the expression of a gene begins to exhibit a significant continuous upward trend, of every gene. 
+**Pseudotime.R** contains the R script to predict the pseudotemporal projection of the disease progression based on the integrated liver transcriptomes. It also computes a take-off value, defined as a pseudotime point when the expression of a gene begins to exhibit a significant continuous upward trend, of every gene. 
 
